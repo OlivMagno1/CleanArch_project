@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/OlivMagno1/CleanArch_project/issues"
   },
-  "homepage": "https://github.com/OlivMagno1/CleanArch_project#readme"
+  "homepage": "https://github.com/OlivMagno1/CleanArch_project#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.0.0"
+  }
 }

@@ -3,7 +3,7 @@ import { UserData } from './user-data'
 import { InvalidNameError } from './errors/invalid-name-error'
 import { InvalidEmailError } from './errors/invalid-email-error'
 import { Name } from './name'
-import { Email } from './email1'
+import { Email } from './email'
 
 export class User {
   public readonly name: Name

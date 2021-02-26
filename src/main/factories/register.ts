@@ -3,7 +3,7 @@ import { RegisterUserOnMailingList } from '@/usecases/register-user-on-mailing-l
 import { MongodbUserRepository } from '@/external/repositories/mongodb'
 
 export const makeRegisterUserController = (): RegisterUserController => {
-  const mongodbUserRepository = new MongodbUserRepository([])
+  const mongodbUserRepository = new MongodbUserRepository()
   const registerUserOnMailingListUseCase = new RegisterUserOnMailingList(mongodbUserRepository)
   const registerUserController = new RegisterUserController(registerUserOnMailingListUseCase)
   return registerUserController
